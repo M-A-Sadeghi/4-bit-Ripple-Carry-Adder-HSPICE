@@ -1,0 +1,140 @@
+ ****** HSPICE -- G-2012.06-SP1 32-BIT (Aug 27 2012) win32 ******               
+  Copyright (C) 2012 Synopsys, Inc. All Rights Reserved.                        
+  Unpublished-rights reserved under US copyright laws.
+  This program is protected by law and is subject to the
+  terms and conditions of the license agreement from Synopsys.
+  Use of this program is your acceptance to be bound by the
+  license agreement. HSPICE is the trademark of Synopsys, Inc.
+  Input File: q1.sp                                                             
+  Command line options: -i q1.sp -o q1.lis
+  lic:  
+  lic: FLEXlm: v10.9.8 
+  lic: USER:   AM80                 HOSTNAME: DESKTOP-DBHTDE0 
+  lic: HOSTID: "e86a64db7e8f 00155d05efc8 00155d7199b9 000000000000 00ff2627d279
+  000000000000 00fffc1
+  lic: Using FLEXlm license file: 
+  lic: 27000@DESKTOP-DBHTDE0 
+  lic: Checkout 1 hspice 
+  lic: License/Maintenance for hspice will expire on 31-dec-2030/2030.12 
+  lic: NODE LOCKED license on hostid "e86a64db7e8f 00155d05efc8 00155d7199b9 000
+ 000000000 00ff2627d27
+  lic:   
+ Init: read install configuration file: C:\synopsys\Hspice_G-2012.06-SP1\meta.cfg
+1****** HSPICE -- G-2012.06-SP1 32-BIT (Aug 27 2012) win32 ******               
+ ******  
+ full_adder
+
+  ******  circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 xfa_0.                          full_adder         1.00 
+        2 xfa_1.                          full_adder         1.00 
+        3 xfa_2.                          full_adder         1.00 
+        4 xfa_3.                          full_adder         1.00 
+  **info** (q1.sp:86) DC voltage reset to initial transient source value              in source        0:vin                 new dc=  0.0000D+00
+ 
+
+  
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2         
+  Opening plot unit= 79
+ file=q1.pa0
+
+1****** HSPICE -- G-2012.06-SP1 32-BIT (Aug 27 2012) win32 ******               
+ ******  
+ full_adder
+
+  ******  operating point information tnom=  25.000 temp=  25.000 *****
+ ***** operating point status is voltage   simulation time is     0.     
+    node    =voltage      node    =voltage      node    =voltage
+
+ +0:a_0     =   0.      0:a_1     =   0.      0:a_2     =   0.     
+ +0:a_3     =   0.      0:b_0     =   1.8000  0:b_1     =   1.8000 
+ +0:b_2     =   1.8000  0:b_3     =   1.8000  0:c_0     =   0.     
+ +0:c_1     = 475.5562m 0:c_2     = 480.6742m 0:c_3     = 481.1255m
+ +0:c_4     = 481.1670m 0:s_0     =   1.8000  0:s_1     =   1.7280 
+ +0:s_2     =   1.7224  0:s_3     =   1.7219  0:vdd     =   1.8000 
+ +1:a_not   =   1.8000  1:b_not   =   9.3427n 1:c_not   =   1.8000 
+ +1:w_1     =   1.8000  1:w_10    = 137.9782m 1:w_2     =   1.8000 
+ +1:w_3     =   1.8000  1:w_4     =   1.4903  1:w_5     =   1.4822 
+ +1:w_6     = 129.6416n 1:w_7     =   1.8000  1:w_8     =   1.8000 
+ +1:w_9     = 292.3335m 2:a_not   =   1.8000  2:b_not   =   9.3427n
+ +2:c_not   =   1.7601  2:w_1     =   1.7280  2:w_10    = 137.8894m
+ +2:w_2     =   1.7491  2:w_3     =   1.7799  2:w_4     =   1.1870 
+ +2:w_5     =   1.1208  2:w_6     =   4.3034m 2:w_7     =   1.8000 
+ +2:w_8     =   1.8000  2:w_9     = 296.5438m 3:a_not   =   1.8000 
+ +3:b_not   =   9.3427n 3:c_not   =   1.7568  3:w_1     =   1.7224 
+ +3:w_10    = 137.8815m 3:w_2     =   1.7451  3:w_3     =   1.7785 
+ +3:w_4     =   1.1850  3:w_5     =   1.1165  3:w_6     =   4.6142m
+ +3:w_7     =   1.8000  3:w_8     =   1.8000  3:w_9     = 296.9144m
+ +4:a_not   =   1.8000  4:b_not   =   9.3427n 4:c_not   =   1.7565 
+ +4:w_1     =   1.7219  4:w_10    = 137.8808m 4:w_2     =   1.7447 
+ +4:w_3     =   1.7783  4:w_4     =   1.1848  4:w_5     =   1.1161 
+ +4:w_6     =   4.6424m 4:w_7     =   1.8000  4:w_8     =   1.8000 
+ +4:w_9     = 296.9485m
+
+ ******  
+ full_adder
+
+  ******  transient analysis tnom=  25.000 temp=  25.000 *****
+ tplh_cout= 323.7574p  targ= 328.7574p   trig=   5.0000p
+ tphl_cout=   1.4287n  targ=   3.9437n   trig=   2.5150n
+ tp_cout=   1.4287n
+ tplh_sum= 382.1400p  targ= 387.1400p   trig=   5.0000p
+ tphl_sum=   1.8490n  targ=   4.3640n   trig=   2.5150n
+ tp_sum=   1.8490n
+ tp=   1.8490n
+ average_power= 226.8593u  from=   0.          to=  20.0000n
+ pdp= 419.4519f
+
+          ***** job concluded
+1****** HSPICE -- G-2012.06-SP1 32-BIT (Aug 27 2012) win32 ******               
+ ******  
+ full_adder
+
+  ******  job statistics summary tnom=  25.000 temp=  25.000 *****
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :     8
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =     327 # elements   =     146
+  # resistors   =       0 # capacitors =       8 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =      10
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =     128 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.02           1          50
+  transient          0.30      200001        1573         549 rev=        69
+  readin             0.14
+  errchk             0.02
+  setup              0.03
+  output             0.00
+
+
+           peak memory used         53.37 megabytes
+           total cpu time            0.56 seconds
+           total elapsed time        1.98 seconds
+           job started at     02:06:54 06/25/2022
+           job ended   at     02:06:56 06/25/2022
+
+
+  lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        1.35(s)

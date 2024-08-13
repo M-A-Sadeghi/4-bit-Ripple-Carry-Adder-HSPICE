@@ -1,0 +1,159 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile {{C:/Users/AM80/Desktop/education/digital electronics/HW/HW6/Resource/q1.tr0}} 1 openonly
+# PF:1
+Mdi:ArrangeIcons
+wm geometry . 1920x966+0+85
+pf:read PF:1 v(c_0)
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+pf:read PF:1 v(c_4)
+# WF:1:2
+Graph addsignal WF:1:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+Mdi:FullSize
+Graph:DSel
+Graph:Select Graph0
+Graph:SetCMap 2
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Mdi:ArrangeIcons
+Graph sigconfig Signal1 -region 1 -xview real(x) -yview real(y) -fill #0000ff -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 1
+Graph sigconfig Signal1 -region 1 -xview real(x) -yview real(y) -fill #0000ff -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 2
+Graph sigconfig Signal1 -region 1 -xview real(x) -yview real(y) -fill #0000ff -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 3
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig Signal0 -region 0 -xview real(x) -yview real(y) -fill #0000ff -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 2
+Graph sigconfig Signal0 -region 0 -xview real(x) -yview real(y) -fill #0000ff -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 3
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile {{C:/Users/AM80/Desktop/education/digital electronics/HW/HW6/Resource/q1.tr0}} 1 openonly
+# PF:2
+Graph itemselect all add
+# Signal1
+Graph delsignal selected
+Graph:ClearItems
+Mdi:ArrangeIcons
+Graph:DSel
+pf:read PF:2 v(c_0)
+# WF:2:1
+Graph addsignal WF:2:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+pf:read PF:2 v(c_4)
+# WF:2:2
+Graph addsignal WF:2:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -region 1 -xview real(x) -yview real(y) -fill #0000ff -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 1
+Graph sigconfig Signal1 -region 1 -xview real(x) -yview real(y) -fill #0000ff -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 2
+Graph sigconfig Signal1 -region 1 -xview real(x) -yview real(y) -fill #0000ff -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 3
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig Signal0 -region 0 -xview real(x) -yview real(y) -fill #0000ff -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 2
+Graph sigconfig Signal0 -region 0 -xview real(x) -yview real(y) -fill #0000ff -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 3
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+.frame1.mdi.mdi1.work.graph0 save -file {C:/Users/AM80/Desktop/education/digital electronics/HW/HW6/Resource/result.png} -format png  -x 0 -y 0 -w 1908 -h 840 -colormode color
+Mdi:ArrangeIcons
+Graph itemselect all add
+# Signal1
+Graph delsignal selected
+Graph:ClearItems
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile {{C:/Users/AM80/Desktop/education/digital electronics/HW/HW6/Resource/q1.tr0}} 1 openonly
+# PF:3
+Graph:DSel
+pf:read PF:3 v(c_0)
+# WF:3:1
+Graph addsignal WF:3:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+pf:read PF:3 v(c_4)
+# WF:3:2
+Graph addsignal WF:3:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -region 1 -xview real(x) -yview real(y) -fill #0000ff -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 1
+Graph sigconfig Signal1 -region 1 -xview real(x) -yview real(y) -fill #0000ff -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 2
+Graph sigconfig Signal1 -region 1 -xview real(x) -yview real(y) -fill #0000ff -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 3
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig Signal0 -region 0 -xview real(x) -yview real(y) -fill #0000ff -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 2
+Graph sigconfig Signal0 -region 0 -xview real(x) -yview real(y) -fill #0000ff -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+.frame1.mdi.mdi1.work.graph0 save -file {C:/Users/AM80/Desktop/education/digital electronics/HW/HW6/Resource/result.png} -format png  -x 0 -y 0 -w 1908 -h 840 -colormode color
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(3) q1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile {{C:/Users/AM80/Desktop/education/digital electronics/HW/HW6/Resource/q1.tr0}} 1 openonly
+# PF:3
+pf:read PF:3 v(s_0)
+# WF:3:3
+Graph addsignal WF:3:3 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal2
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile {{C:/Users/AM80/Desktop/education/digital electronics/HW/HW6/Resource/q1.tr0}} 1 openonly
+# PF:3
+Graph:DSel
+pf:read PF:3 v(s_3)
+# WF:3:4
+Graph addsignal WF:3:4 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Graph sigconfig Signal3 -region 2 -xview real(x) -yview real(y) -fill #0000ff -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 1
+Graph sigconfig Signal3 -region 2 -xview real(x) -yview real(y) -fill #0000ff -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 2
+Graph sigconfig Signal3 -region 2 -xview real(x) -yview real(y) -fill #0000ff -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 3
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+.frame1.mdi.mdi1.work.graph0 save -file {C:/Users/AM80/Desktop/education/digital electronics/HW/HW6/Resource/result.png} -format png  -x 0 -y 0 -w 1908 -h 840 -colormode color
+Mdi:ArrangeIcons

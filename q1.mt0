@@ -1,0 +1,8 @@
+$DATA1 SOURCE='HSPICE' VERSION='G-2012.06-SP1 32-BIT'
+.TITLE 'full_adder'
+ tplh_cout        tphl_cout        tp_cout          tplh_sum          
+ tphl_sum         tp_sum           tp               average_power     
+ pdp              temper           alter#            
+  3.238e-10        1.429e-09        1.429e-09        3.821e-10        
+  1.849e-09        1.849e-09        1.849e-09        2.269e-04        
+  4.195e-13         25.0000        1                 
