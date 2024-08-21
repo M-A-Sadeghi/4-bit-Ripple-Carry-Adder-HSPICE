@@ -3,6 +3,6 @@ This project involves the design, simulation, and analysis of a 4-bit Ripple Car
 
 __Results__<br/> 
 Max Delay (Tp_sum): 1.85ns<br/> 
-Max Delay (Tp_cout): 1.43ns<br/>  
+Max Delay (Tp_cout): 1.43ns<br/>
 Average Power Consumption: 227µW<br/>  
 PDP: 988fJ
